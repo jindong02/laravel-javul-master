@@ -1,0 +1,27 @@
+#diffoutput{
+    overflow: scroll;
+    overflow-y: hidden;
+}
+table.diff th.author {
+    display: none;
+}
+.small-a a {
+    text-transform: capitalize;
+    font-size: 13px;
+    line-height: 40px;
+    margin-right: 7px;
+    margin-left: 7px;
+}
+.user-wikihome-tool a{
+    
+    line-height: 29px;
+}
+.red {
+	background:#B90B0D;
+}
+.current_task_heading_red {
+    border-bottom-color: #b90b0d !important;
+}
+.wiki-page-desc{
+	padding: 10px;
+}

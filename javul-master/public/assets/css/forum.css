@@ -1,0 +1,100 @@
+.post-body code{
+    border: none;
+    box-shadow: none;
+}
+ul.sub,ul.posts{
+    padding: 0;
+    list-style: none;
+    margin: 10px;
+    margin-right: 0;
+    position: relative;
+    margin-left: 0;
+    margin-bottom: -12px;
+}
+.posts .heading .point,.posts .heading .point{
+    font-size: 11px;
+    color: rgba(102, 102, 102, 0.92);
+    font-weight: normal;
+}
+.posts .heading,.posts .heading{
+    font-weight: bold;
+        padding-left: 15px;
+}
+.idea-point{
+    font-size: 11px;
+    font-weight: normal;
+}
+.posts .heading .ideapoint,.posts .heading .ideapoint{
+    font-size: 18px;
+    cursor: pointer;
+}
+.posts .heading .ideapoint.active,.posts .heading .ideapoint.active{
+    color: #fdb105;
+}
+.post-placeholder > li{
+    margin-left: 12px;
+}
+.post-placeholder > ul{
+    border-left: 3px gray solid;
+}
+.post-body {
+    padding: 0px 10px;
+    margin: 0;
+}
+.up-down i {
+    display: block;
+    height: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+.up-down i.active {
+    color: #ff8b60;
+}
+.up-down {
+    position: absolute;
+    left: 0;
+}
+ul.posts li.post-div ,ul.sub li.post-div  {
+    margin-bottom: 11px;
+    border: solid 1px #ddd;
+    border-right: none;
+    padding-left: 6px !important;
+}
+li.post-div {
+    padding: 5px!important;
+    background-color: #fff!important;
+}
+
+li.post-div li.post-div,li.post-div li.post-div li.post-div li.post-div,li.post-div li.post-div li.post-div li.post-div li.post-div li.post-div,li.post-div li.post-div li.post-div li.post-div li.post-div li.post-div li.post-div li.post-div,li.post-div li.post-div li.post-div li.post-div li.post-div li.post-div li.post-div li.post-div li.post-div li.post-div,li.post-div li.post-div li.post-div li.post-div li.post-div li.post-div li.post-div li.post-div li.post-div li.post-div li.post-div li.post-div {
+    background-color: #FAFAFA!important;
+}
+
+li.post-div li.post-div li.post-div,li.post-div li.post-div li.post-div li.post-div li.post-div,li.post-div li.post-div li.post-div li.post-div li.post-div li.post-div li.post-div,li.post-div li.post-div li.post-div li.post-div li.post-div li.post-div li.post-div li.post-div li.post-div {
+    background-color: #fff!important;
+}
+
+li.post-div li.post-div li.post-div li.post-div li.post-div li.post-div li.post-div li.post-div li.post-div li.post-div li.post-div {
+    background-color: #fff!important
+}
+li.loadmore {
+    border: none !important;
+    font-size: 12px;
+    list-style: none;
+}
+
+.objectiveComment .post-body{
+    padding: 0;
+    font-size: 12px;
+    margin-left: 5px;
+}
+.objectiveComment .ideapoint   {
+    font-size: 14px !important;
+}
+.objectiveComment .heading{
+    padding: 0;
+}
+.objectiveComment .post-div{
+    border: none !important;
+    border-bottom: solid 1px #bfbfbf !important;
+}
